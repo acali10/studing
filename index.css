@@ -1,0 +1,15 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 72rem;
+    padding: 0rem;
+    background: rgb(0, 207, 235);
+}
