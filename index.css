@@ -5,6 +5,10 @@ margin: 0;
 padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -73,9 +77,22 @@ padding: 0;
 }
 
 .box6{
-    border: 2px solid red;
     grid-column: 2;
     grid-row: 15 / 25;
+}
+
+.img3{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.box6 p{
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .box7{
@@ -97,7 +114,13 @@ padding: 0;
 }
 
 .box10{
-    border: 2px solid red;
+    border-radius: 10px;
     grid-column: 4 / 5;
     grid-row: 7 / 25;
+}
+
+.img2{
+    width: 50vh;
+    display: flex;
+    border-radius: 10px;
 }
